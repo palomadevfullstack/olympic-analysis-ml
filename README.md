@@ -12,7 +12,7 @@ A análise foi desenvolvida de ponta a ponta, desde a exploração e visualizaç
 /
 ├── data/
 |   └── athlete_events.zip
-├── scritps-python/
+├── scripts-python/
 |    ├── analysis_olympic_athlete.py
 |    ├── ml_data_preparation.py
 |    └── ml_training.py
