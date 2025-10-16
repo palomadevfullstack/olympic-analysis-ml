@@ -8,6 +8,8 @@ A análise foi desenvolvida de ponta a ponta, desde a exploração e visualizaç
 
 ## 📂 Estrutura de Arquivos
 
+O projeto está organizado de forma modular para separar as etapas de análise, preparação e modelagem.
+
 ```
 /
 ├── data/
@@ -64,19 +66,40 @@ Com um modelo de alta performance, a etapa final foi "abrir a caixa-preta" para 
 
 ## ⚙️ Como Executar o Projeto
 
+## ⚙️ Como Executar o Projeto
+
 1.  Clone o repositório:
     ```bash
-    git clone https://github.com/palomadevfullstack/olympic-analysis-ml
+    git clone [[https://github.com/seu-usuario/analise-olimpica-ml.git](https://github.com/seu-usuario/analise-olimpica-ml.git)](https://github.com/palomadevfullstack/olympic-analysis-ml)
     ```
 2.  Navegue até a pasta do projeto:
     ```bash
     cd olympic-analysis-ml
     ```
-3.  Instale as dependências:
+3.  Descompacte o dataset dentro da pasta `data/`.
+
+4.  Instale as dependências:
     ```bash
     pip install -r requirements.txt
     ```
-4.  Abra o Jupyter Notebook localizado na pasta `notebooks/` para ver a análise completa.
+
+5.  Execute a análise:
+
+    **Opção A (Recomendado): Execução via Jupyter Notebook**
+    Abra o notebook `analise_olimpica.ipynb` na pasta `notebooks/`. Ele serve como o relatório principal, guiando por toda a análise e exibindo os resultados de forma organizada.
+
+    **Opção B: Execução Sequencial dos Scripts**
+    Se preferir, você pode executar os scripts Python em sequência a partir do terminal (estando na pasta raiz do projeto):
+    ```bash
+    # 1. Executar a análise exploratória
+    python scripts-python/analysis_olympic_athlete.py
+
+    # 2. Preparar os dados para o Machine Learning
+    python scripts-python/ml_data_preparation.py
+
+    # 3. Treinar e avaliar os modelos
+    python scripts-python/ml_training.py
+    ```
 
 ## 🔮 Possíveis Melhorias Futuras
 
