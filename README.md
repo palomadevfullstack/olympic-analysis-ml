@@ -66,11 +66,10 @@ Com um modelo de alta performance, a etapa final foi "abrir a caixa-preta" para 
 
 ## ⚙️ Como Executar o Projeto
 
-## ⚙️ Como Executar o Projeto
 
 1.  Clone o repositório:
     ```bash
-    git clone [[https://github.com/seu-usuario/analise-olimpica-ml.git](https://github.com/seu-usuario/analise-olimpica-ml.git)](https://github.com/palomadevfullstack/olympic-analysis-ml)
+    git clone https://github.com/palomadevfullstack/olympic-analysis-ml
     ```
 2.  Navegue até a pasta do projeto:
     ```bash
